@@ -71,7 +71,7 @@ font = pygame.font.SysFont("Impact", 64)
 red = pygame.Rect(300, 325, SPEEDSTER_WIDTH, SPEEDSTER_HEIGHT)
 surface_type = pygame.HWSURFACE | pygame.DOUBLEBUF | pygame.RESIZABLE
 window = pygame.display.set_mode((WIDTH, HEIGHT), surface_type)
-pygame.display.set_caption("DESERT PURSUIT")
+pygame.display.set_caption("VEGAS DESERT PURSUIT")
 
 # Variables to manage the background change
 background_delay = 20  # milliseconds
